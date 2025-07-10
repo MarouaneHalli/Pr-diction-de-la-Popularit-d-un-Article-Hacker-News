@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 import pickle
 from datetime import datetime, date, time
+import nltk
+
+# Télécharger les stopwords (une fois)
+nltk.download('stopwords')
+
 
 # ========== 1. Chargement des objets sauvegardés ==========
 with open('hn_model.pkl', 'rb') as f:
