@@ -1,0 +1,20 @@
+# Environnement virtuel
+venv/
+
+# Fichiers temporaires Jupyter
+.ipynb_checkpoints/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+
+# Données
+*.csv
+
+# Modèles et objets sauvegardés
+*.pkl
+*.joblib
+
+# Cache
+*.log
+*.tmp
